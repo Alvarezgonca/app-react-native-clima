@@ -22,9 +22,9 @@
   
   ### 🎨 Demonstração Visual do App
   
-  <img src="./assets/image/img1.jpeg" alt="Tela Inicial com Sugestões" width="250"/>
-  <img src="./assets/image/img3.jpeg" alt="Resultado do Clima - Niterói" width="250"/>
-  <img src="./assets/image/img2.jpeg" alt="Tela de Erro" width="250"/>
+  <img src="./assets/image/img1.jpeg?raw=true" alt="Tela Inicial com Sugestões" width="250"/>
+  <img src="./assets/image/img3.jpeg?raw=true" alt="Resultado do Clima - Niterói" width="250"/>
+  <img src="./assets/image/img2.jpeg?raw=true&v=2" alt="Tela de Erro" width="250"/>
   
   <br/>
   
