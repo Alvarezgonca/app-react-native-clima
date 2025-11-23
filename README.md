@@ -20,23 +20,19 @@
 
 <div align="center">
   
-  ### 🎨 Demonstração Visual
+  ### 🎨 Demonstração Visual do App
   
-  | 🏠 Tela Inicial | 🌟 Sugestões | ☁️ Resultado |
-  |:---:|:---:|:---:|
-  | <img src="https://via.placeholder.com/250x500/E8F4F8/2E88C7?text=Tela+Inicial" alt="Tela Inicial" width="200"/> | <img src="https://via.placeholder.com/250x500/E8F4F8/2E88C7?text=Sugestões" alt="Sugestões" width="200"/> | <img src="https://via.placeholder.com/250x500/78909C/ffffff?text=Niterói+25°C" alt="Resultado" width="200"/> |
-  | Campo de busca com sugestões de cidades | Histórico das últimas 5 buscas | Card colorido com todas as informações |
+  <img src="./assets/image/img1.jpeg" alt="Tela Inicial com Sugestões" width="250"/>
+  <img src="./assets/image/img2.jpeg" alt="Resultado do Clima - Niterói" width="250"/>
+  <img src="./assets/image/img3.jpeg" alt="Tela de Erro" width="250"/>
   
   <br/>
   
-  | ☀️ Céu Limpo | 🌧️ Chuva | ❌ Erro |
+  | 🏠 Tela Inicial | ☁️ Resultado com Clima | ❌ Feedback de Erro |
   |:---:|:---:|:---:|
-  | <img src="https://via.placeholder.com/250x500/FFA726/ffffff?text=São+Paulo+20°C" alt="Céu Limpo" width="200"/> | <img src="https://via.placeholder.com/250x500/5C6BC0/ffffff?text=Salvador+18°C" alt="Chuva" width="200"/> | <img src="https://via.placeholder.com/250x500/FFF5F5/C53030?text=Cidade+não+encontrada" alt="Erro" width="200"/> |
-  | Cores quentes para sol | Cores frias para chuva | Feedback amigável de erro |
+  | Campo de busca com sugestões de cidades populares brasileiras | Card colorido mostrando temperatura, umidade, vento e sensação térmica | Mensagem amigável quando a cidade não é encontrada |
   
 </div>
-
-> 📱 **Nota**: As imagens acima são placeholders. Para ver o app real, escaneie o QR code após executar `npm start`!
 
 ### 🎨 Principais Telas
 
@@ -267,25 +263,7 @@ app-clima/
 | Neve | ❄️ snow |
 | Neblina | 🌫️ cloud |
 
-## � Como Adicionar Screenshots Reais
-
-Para substituir os placeholders por screenshots reais do app:
-
-1. **Tire prints** do aplicativo no seu celular
-2. **Crie uma pasta** `screenshots` no repositório
-3. **Adicione as imagens** com nomes descritivos:
-   - `tela-inicial.png`
-   - `sugestoes.png`
-   - `resultado-niteroi.png`
-   - `resultado-sao-paulo.png`
-   - `historico.png`
-   - `erro.png`
-4. **Atualize** os links no README:
-   ```markdown
-   <img src="./screenshots/tela-inicial.png" alt="Tela Inicial" width="200"/>
-   ```
-
-## �🔧 Possíveis Melhorias Futuras
+## 🔧 Possíveis Melhorias Futuras
 
 ### 🎯 Features Planejadas
 - [ ] 📅 Previsão para os próximos 5-7 dias
