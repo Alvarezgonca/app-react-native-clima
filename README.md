@@ -1,6 +1,58 @@
 # 🌤️ App de Previsão do Tempo
 
-Aplicativo móvel simples para consultar a previsão do tempo de qualquer cidade do mundo, desenvolvido com React Native e Expo.
+<div align="center">
+  
+  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  
+  <br/>
+  
+  **Aplicativo móvel simples e elegante para consultar a previsão do tempo de qualquer cidade do mundo**
+  
+  🌍 *Desenvolvido com React Native e Expo* 🌍
+  
+</div>
+
+---
+
+## 📸 Screenshots
+
+<div align="center">
+  
+  ### 🎨 Demonstração Visual
+  
+  | 🏠 Tela Inicial | 🌟 Sugestões | ☁️ Resultado |
+  |:---:|:---:|:---:|
+  | <img src="https://via.placeholder.com/250x500/E8F4F8/2E88C7?text=Tela+Inicial" alt="Tela Inicial" width="200"/> | <img src="https://via.placeholder.com/250x500/E8F4F8/2E88C7?text=Sugestões" alt="Sugestões" width="200"/> | <img src="https://via.placeholder.com/250x500/78909C/ffffff?text=Niterói+25°C" alt="Resultado" width="200"/> |
+  | Campo de busca com sugestões de cidades | Histórico das últimas 5 buscas | Card colorido com todas as informações |
+  
+  <br/>
+  
+  | ☀️ Céu Limpo | 🌧️ Chuva | ❌ Erro |
+  |:---:|:---:|:---:|
+  | <img src="https://via.placeholder.com/250x500/FFA726/ffffff?text=São+Paulo+20°C" alt="Céu Limpo" width="200"/> | <img src="https://via.placeholder.com/250x500/5C6BC0/ffffff?text=Salvador+18°C" alt="Chuva" width="200"/> | <img src="https://via.placeholder.com/250x500/FFF5F5/C53030?text=Cidade+não+encontrada" alt="Erro" width="200"/> |
+  | Cores quentes para sol | Cores frias para chuva | Feedback amigável de erro |
+  
+</div>
+
+> 📱 **Nota**: As imagens acima são placeholders. Para ver o app real, escaneie o QR code após executar `npm start`!
+
+### 🎨 Principais Telas
+
+| Tela Inicial | Sugestões de Cidades | Resultado - Niterói |
+|:---:|:---:|:---:|
+| Interface limpa com campo de busca e sugestões de cidades populares | Histórico de buscas recentes para acesso rápido | Card colorido mostrando temperatura e detalhes do clima |
+
+| Resultado - São Paulo | Histórico de Buscas | Tela de Erro |
+|:---:|:---:|:---:|
+| Cores dinâmicas que mudam conforme o clima | Últimas 5 cidades pesquisadas salvas | Feedback amigável quando a cidade não é encontrada |
+
+> 💡 **Dica**: As cores do card mudam automaticamente baseado nas condições climáticas!
+> - ☀️ Laranja para céu limpo
+> - ☁️ Cinza azulado para nublado  
+> - 🌧️ Azul índigo para chuva
+> - ⛈️ Cinza escuro para tempestades
 
 ## 📱 Funcionalidades
 
@@ -95,28 +147,79 @@ expo start
 
 ## 📱 Como Usar
 
-1. Digite o nome de uma cidade no campo de texto
-2. Pressione o botão de busca (ícone de lupa) ou a tecla Enter
-3. Aguarde o carregamento dos dados
-4. Visualize as informações do clima:
-   - Nome da cidade e país
-   - Temperatura atual
-   - Descrição do clima
-   - Umidade
-   - Velocidade do vento
-   - Sensação térmica
+### 🔍 Buscando uma Cidade
+1. **Digite o nome** de uma cidade no campo de texto (aceita acentos!)
+   - Exemplos: `Maricá`, `São Paulo`, `Niterói`, `Rio de Janeiro`
+2. **Pressione o botão de busca** (ícone de lupa) ou tecla Enter
+3. **Aguarde** o carregamento dos dados
+4. **Visualize** as informações completas do clima
 
-## 🎨 Estrutura do Projeto
+### 🎯 Atalhos Rápidos
+- **Sugestões de Cidades**: Clique nas cidades populares sugeridas
+- **Histórico**: Toque no ícone de relógio (⏱️) para ver buscas recentes
+- **Atualizar**: Use o botão "Atualizar" dentro do card para dados mais recentes
+- **Voltar**: Botão ← no canto superior ou "Nova Busca" no final do card
+
+### 📊 Informações Exibidas
+- 🏙️ Nome da cidade e país
+- 🌡️ Temperatura atual em Celsius
+- ☁️ Descrição do clima (traduzido)
+- 💧 Umidade do ar (%)
+- 💨 Velocidade do vento (km/h)
+- 🔥 Sensação térmica (°C)
+
+## 🎨 Destaques Visuais
+
+### 🌈 Cores Dinâmicas por Clima
+O app muda automaticamente as cores do card baseado nas condições climáticas:
+
+```
+☀️ Céu Limpo      → Laranja vibrante (#FFA726)
+☁️ Nublado        → Cinza azulado (#78909C)
+🌧️ Chuva         → Azul índigo (#5C6BC0)
+💨 Garoa          → Roxo suave (#7E57C2)
+⛈️ Tempestade     → Cinza escuro (#455A64)
+❄️ Neve           → Azul claro (#81D4FA)
+🌫️ Neblina       → Cinza névoa (#90A4AE)
+```
+
+### ✨ Elementos Visuais Modernos
+- **Sombras suaves** em todos os elementos
+- **Bordas arredondadas** (20-30px)
+- **Ícones animados** da biblioteca Ionicons
+- **Efeitos de texto** com sombras para melhor legibilidade
+- **Cards translúcidos** com efeito glassmorphism
+- **Gradientes sutis** no header
+
+### 🎯 Ícones por Condição Climática
+
+| Condição | Ícone | Descrição |
+|----------|-------|-----------|
+| Céu limpo | ☀️ sunny | Sol brilhante |
+| Nublado | ☁️ cloudy | Nuvens |
+| Chuva | 🌧️ rainy | Chuva |
+| Tempestade | ⛈️ thunderstorm | Raios e trovões |
+| Neve | ❄️ snow | Flocos de neve |
+| Neblina | 🌫️ cloud | Nuvem de neblina |
+
+## 📂 Estrutura do Projeto
 
 ```
 app-clima/
-├── App.js              # Componente principal do aplicativo
+├── App.js              # Componente principal do aplicativo (880+ linhas)
 ├── package.json        # Dependências e scripts
 ├── app.json           # Configurações do Expo
 ├── babel.config.js    # Configuração do Babel
 ├── .gitignore         # Arquivos ignorados pelo Git
 └── README.md          # Documentação do projeto
 ```
+
+### 📊 Estatísticas do Código
+- **~880 linhas** de código bem documentado
+- **30+ traduções** de condições climáticas
+- **15+ estilos** personalizados
+- **7 cores** dinâmicas por clima
+- **6 funcionalidades** principais
 
 ## 🌐 API Utilizada
 
@@ -164,16 +267,37 @@ app-clima/
 | Neve | ❄️ snow |
 | Neblina | 🌫️ cloud |
 
-## 🔧 Possíveis Melhorias Futuras
+## � Como Adicionar Screenshots Reais
 
-- [ ] Previsão para os próximos dias
-- [ ] Localização automática (GPS)
-- [ ] Histórico de buscas
-- [ ] Favoritar cidades
-- [ ] Modo escuro/claro
-- [ ] Gráficos de temperatura
-- [ ] Notificações de alertas climáticos
-- [ ] Suporte a múltiplos idiomas
+Para substituir os placeholders por screenshots reais do app:
+
+1. **Tire prints** do aplicativo no seu celular
+2. **Crie uma pasta** `screenshots` no repositório
+3. **Adicione as imagens** com nomes descritivos:
+   - `tela-inicial.png`
+   - `sugestoes.png`
+   - `resultado-niteroi.png`
+   - `resultado-sao-paulo.png`
+   - `historico.png`
+   - `erro.png`
+4. **Atualize** os links no README:
+   ```markdown
+   <img src="./screenshots/tela-inicial.png" alt="Tela Inicial" width="200"/>
+   ```
+
+## �🔧 Possíveis Melhorias Futuras
+
+### 🎯 Features Planejadas
+- [ ] 📅 Previsão para os próximos 5-7 dias
+- [ ] 📍 Localização automática via GPS
+- [ ] ⭐ Sistema de favoritos para cidades
+- [ ] 🌙 Modo escuro/claro com toggle
+- [ ] 📊 Gráficos interativos de temperatura
+- [ ] 🔔 Notificações push de alertas climáticos
+- [ ] 🌍 Suporte a múltiplos idiomas
+- [ ] 🎨 Temas personalizáveis
+- [ ] 💾 Persistência de dados (AsyncStorage)
+- [ ] 🔄 Pull-to-refresh no card de resultados
 
 ## ⚠️ Solução de Problemas
 
@@ -190,3 +314,65 @@ app-clima/
 ### Erro de conexão
 - Verifique sua conexão com a internet
 - Certifique-se de que o dispositivo está na mesma rede
+## 📊 Informações do Projeto
+
+<div align="center">
+
+### 📈 Status do Projeto
+  
+✅ **Concluído e Funcional**
+
+### 🛠️ Tecnologias
+
+| Tecnologia | Versão | Uso |
+|------------|--------|-----|
+| React Native | 0.81.5 | Framework mobile |
+| Expo | ~54.0.0 | Desenvolvimento e deploy |
+| WeatherAPI | v1 | Dados meteorológicos |
+| Ionicons | ^15.0.3 | Biblioteca de ícones |
+
+### 📦 Estatísticas
+
+- **Linhas de Código**: ~880
+- **Componentes**: 1 principal (App)
+- **Funcionalidades**: 6 principais + 5 extras
+- **Traduções**: 30+ condições climáticas
+- **Estados Gerenciados**: 5 (cidade, dados, carregando, erro, histórico)
+
+</div>
+
+## 📄 Licença
+
+Este projeto é para fins **educacionais** e foi desenvolvido como atividade prática.
+
+## 👨‍💻 Autor
+
+Desenvolvido como atividade prática do curso de **Aplicativos Nativos**.
+
+### 🤝 Contribuições
+
+Sugestões e melhorias são bem-vindas! Sinta-se à vontade para:
+- 🐛 Reportar bugs
+- 💡 Sugerir novas funcionalidades
+- 🔧 Enviar pull requests
+- ⭐ Dar uma estrela no projeto
+
+---
+
+<div align="center">
+  
+  ### 🌟 Se este projeto foi útil, considere dar uma ⭐!
+  
+  **Feito com ❤️ e ☕ usando React Native**
+  
+  <br/>
+  
+  ![Built with Love](https://img.shields.io/badge/Built%20with-❤️-red?style=for-the-badge)
+  ![Made with React Native](https://img.shields.io/badge/Made%20with-React%20Native-61DAFB?style=for-the-badge&logo=react)
+  ![Powered by Expo](https://img.shields.io/badge/Powered%20by-Expo-000020?style=for-the-badge&logo=expo)
+  
+  <br/>
+  
+  **Nota**: A WeatherAPI oferece **1 milhão de requisições gratuitas por mês**, sem precisar de cartão de crédito! 🎉
+  
+</div>
